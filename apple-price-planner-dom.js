@@ -1,17 +1,56 @@
-// write your DOM code here.
 const calculate_button = document.querySelector(".calculate-button");
 const inputCostPriceForBox = document.querySelector(".inputCostPriceForBox");
 const inputNumberApples = document.querySelector(".inputNumberApples");
 const inputPacketSize = document.querySelector(".inputPacketSize");
 const inputRequiredProfit = document.querySelector(".inputRequiredProfit");
 
-// DOM element references
-// create Factory Function instance
+
+const displayNumberOfPakets = document.querySelector("#displayNumberOfPakets");
+const displayCostPerApple = document.querySelector("#displayCostPerApple");
+const displayCostPricePerPacket = document.querySelector("#displayCostPricePerPacket");
+const displayRecommendPacketPrice = document.querySelector("#displayRecommendPacketPrice");
+
+
+
+
+
 const applePrice = ApplePrice();
-// DOM events
+
 function calculate() {
-    console.log('inputCostPriceForBox', inputCostPriceForBox.value)
+    numberOfPackets()
 }
+
+
+function CostPricerPerApple() {
+    
+}
+
+function costPricePerPacket() {
+    
+}
+
+function numberOfPackets() {
+    var numberOfPackets = 0;
+    var numberOfPackets = inputNumberApples.value / inputPacketSize.value; 
+
+
+    console.log('inputPacketSize.value', inputPacketSize.value)
+
+    console.log('inputNumberApples.value', inputNumberApples.value)
+    console.log('numberOfPackets', numberOfPackets)
+
+    displayNumberOfPakets.innerHTML = numberOfPackets;
+
+    //return numberOfPackets;
+    
+}
+
+function  requiredProfitPercentage() {
+    
+}
+
+
+
 
 
 calculate_button.addEventListener('click', function () {

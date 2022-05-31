@@ -14,6 +14,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 	
 }
 
@@ -36,6 +37,15 @@ button {
 	font-weight: bold;
 }
 .button-div {
+	width: 70%;
+}
+
+.inputCostPriceForBox {
+	text-align: end;
+	
+}
+
+.calculate-button {
 	text-align: end;
 }
 
