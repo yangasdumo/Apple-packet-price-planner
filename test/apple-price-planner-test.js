@@ -9,5 +9,16 @@ describe('Apple price planner app', function() {
 		assert.equal(2, applePrice.numberOfPackets());
 
 	});
+
+    it ('should return correct percent number ', function() {
+
+		const applePrice = ApplePrice();
+
+		
+		
+
+		assert.equal(null, applePrice.requiredProfitPercentage());
+
+	});
 	
 });

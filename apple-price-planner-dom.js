@@ -21,7 +21,7 @@ function calculate() {
 }
 
 
-function CostPricerPerApple() {
+function costPricerPerApple() {
     
 }
 
@@ -41,15 +41,16 @@ function numberOfPackets() {
 
     displayNumberOfPakets.innerHTML = numberOfPackets;
 
-    //return numberOfPackets;
+    
     
 }
 
 function  requiredProfitPercentage() {
+
+    var profit = 0;
+    displayRecommendPacketPrice.innerHTML = profit;
     
 }
-
-
 
 
 
