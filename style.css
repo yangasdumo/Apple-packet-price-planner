@@ -4,7 +4,7 @@ body {
 }
 
 .buying-section {
-	width: 100%;
+	width: 70%;
 	display: flex;
 	flex-direction: column;
 }
@@ -14,21 +14,29 @@ body {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	
 }
 
 .calculate-section {
-	width: 100%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+
 
 }
 
-.parragraph {
+.displaySpan {
 	background-color: white;
+	width: 50px;
 }
 
 button {
 	padding: 1em;
 	border-radius: 0.5em;
 	font-weight: bold;
+}
+.button-div {
+	text-align: end;
 }
 
 @media (min-width: 768px) {
